@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: 'VT323', monospace;
+  background: #000 url('https://wallpapercave.com/wp/wp11590579.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #00fff7;
+  text-shadow: 0 0 3px #ff00c8;
+}
+
+.overlay {
+  background: rgba(0,0,0,0.85);
+  padding: 30px;
+}
+
+h1, h2 {
+  color: #ff00c8;
+  text-align: center;
+}
+
+input, button {
+  background: #111;
+  color: #00fff7;
+  border: 1px solid #00fff7;
+  padding: 10px;
+  font-family: 'VT323', monospace;
+  transition: all 0.3s;
+}
+
+input:focus, button:hover {
+  box-shadow: 0 0 8px #ff00c8;
+  border-color: #ff00c8;
+}
+
+pre, ul {
+  background: rgba(20, 20, 20, 0.8);
+  border: 1px solid #333;
+  padding: 10px;
+  overflow-x: auto;
+}
