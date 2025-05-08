@@ -1,5 +1,5 @@
 // IP Intelligence (Gojo's Six Eyes)
-fetch("https://ipinfo.io/json?token=04aa07954e51ff")
+fetch("https://ipinfo.io/json?token=8cfa2b75d4a1ee")
   .then(res => res.json())
   .then(data => {
     document.getElementById("ip-data").textContent = JSON.stringify(data, null, 2);
